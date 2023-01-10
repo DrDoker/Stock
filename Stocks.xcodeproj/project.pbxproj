@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C5889653296DEE7A00065ABD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C5889652296DEE7A00065ABD /* SnapKit */; };
 		C5889655296DF00600065ABD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5889654296DF00600065ABD /* TitleView.swift */; };
+		C5889657296E0F3600065ABD /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5889656296E0F3600065ABD /* SearchResultTableViewCell.swift */; };
 		C59EC601296CA355008B90E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC600296CA355008B90E5 /* AppDelegate.swift */; };
 		C59EC603296CA355008B90E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC602296CA355008B90E5 /* SceneDelegate.swift */; };
 		C59EC605296CA355008B90E5 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC604296CA355008B90E5 /* WatchListViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		C5889654296DF00600065ABD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		C5889656296E0F3600065ABD /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
 		C59EC5FD296CA355008B90E5 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59EC600296CA355008B90E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59EC602296CA355008B90E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				C5889654296DF00600065ABD /* TitleView.swift */,
+				C5889656296E0F3600065ABD /* SearchResultTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				C59EC604296CA355008B90E5 /* WatchListViewController.swift */,
-				C59EC61B296CA653008B90E5 /* TopStoriesViewController.swift */,
 				C59EC61D296CA662008B90E5 /* SearchResultsViewController.swift */,
+				C59EC61B296CA653008B90E5 /* TopStoriesViewController.swift */,
 				C59EC61F296CA681008B90E5 /* StockDetailsViewController.swift */,
 			);
 			path = Controllers;
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59EC626296CAB81008B90E5 /* HapticsManager.swift in Sources */,
+				C5889657296E0F3600065ABD /* SearchResultTableViewCell.swift in Sources */,
 				C59EC620296CA681008B90E5 /* StockDetailsViewController.swift in Sources */,
 				C59EC61E296CA662008B90E5 /* SearchResultsViewController.swift in Sources */,
 				C5889655296DF00600065ABD /* TitleView.swift in Sources */,
