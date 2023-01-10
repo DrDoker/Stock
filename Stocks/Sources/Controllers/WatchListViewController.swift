@@ -14,6 +14,7 @@ class WatchListViewController: UIViewController {
 	
 	private lazy var searchViewController: UISearchController = {
 		let resultViewController = SearchResultsViewController()
+		resultViewController.delegate = self
 		let searchViewController = UISearchController(searchResultsController: resultViewController)
 		searchViewController.searchResultsUpdater = self
 		return searchViewController
@@ -58,9 +59,13 @@ extension WatchListViewController: UISearchResultsUpdating {
 			return
 		}
 		
-		print(query)
+		resultViewController.update(with: ["GOOG"])
 		
 	}
-	
-	
+}
+
+extension WatchListViewController: SearchResultsViewControllerDelegate {
+	func searchResultsViewControllerDidSelect(searchResult: String) {
+		
+	}
 }
