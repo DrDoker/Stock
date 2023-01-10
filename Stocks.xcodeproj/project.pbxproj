@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5889653296DEE7A00065ABD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C5889652296DEE7A00065ABD /* SnapKit */; };
+		C5889655296DF00600065ABD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5889654296DF00600065ABD /* TitleView.swift */; };
 		C59EC601296CA355008B90E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC600296CA355008B90E5 /* AppDelegate.swift */; };
 		C59EC603296CA355008B90E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC602296CA355008B90E5 /* SceneDelegate.swift */; };
 		C59EC605296CA355008B90E5 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC604296CA355008B90E5 /* WatchListViewController.swift */; };
@@ -21,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5889654296DF00600065ABD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		C59EC5FD296CA355008B90E5 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59EC600296CA355008B90E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59EC602296CA355008B90E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5889653296DEE7A00065ABD /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +117,7 @@
 		C59EC618296CA4EB008B90E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C5889654296DF00600065ABD /* TitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +159,9 @@
 			dependencies = (
 			);
 			name = Stocks;
+			packageProductDependencies = (
+				C5889652296DEE7A00065ABD /* SnapKit */,
+			);
 			productName = Stock;
 			productReference = C59EC5FD296CA355008B90E5 /* Stocks.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +190,9 @@
 				Base,
 			);
 			mainGroup = C59EC5F4296CA355008B90E5;
+			packageReferences = (
+				C5889651296DEE7A00065ABD /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C59EC5FE296CA355008B90E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,6 +222,7 @@
 				C59EC626296CAB81008B90E5 /* HapticsManager.swift in Sources */,
 				C59EC620296CA681008B90E5 /* StockDetailsViewController.swift in Sources */,
 				C59EC61E296CA662008B90E5 /* SearchResultsViewController.swift in Sources */,
+				C5889655296DF00600065ABD /* TitleView.swift in Sources */,
 				C59EC61C296CA653008B90E5 /* TopStoriesViewController.swift in Sources */,
 				C59EC622296CAB44008B90E5 /* APICaller.swift in Sources */,
 				C59EC605296CA355008B90E5 /* WatchListViewController.swift in Sources */,
@@ -432,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5889651296DEE7A00065ABD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5889652296DEE7A00065ABD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5889651296DEE7A00065ABD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C59EC5F5296CA355008B90E5 /* Project object */;
 }

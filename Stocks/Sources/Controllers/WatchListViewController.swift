@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class WatchListViewController: UIViewController {
 	
@@ -16,6 +17,11 @@ class WatchListViewController: UIViewController {
 		let searchViewController = UISearchController(searchResultsController: resultViewController)
 		searchViewController.searchResultsUpdater = self
 		return searchViewController
+	}()
+	
+	private lazy var titleView: TitleView = {
+		let titleView = TitleView()
+		return titleView
 	}()
 	
 	// MARK: - Lifecycle
@@ -31,16 +37,16 @@ class WatchListViewController: UIViewController {
 	// MARK: - Setup
 	
 	private func setupNavigationBar() {
+		navigationItem.titleView = titleView
 		navigationItem.searchController = searchViewController
 	}
-	
 	
 	private func setupHierarchy() {
 		
 	}
 	
 	private func setupLayout() {
-		
+
 	}
 }
 
