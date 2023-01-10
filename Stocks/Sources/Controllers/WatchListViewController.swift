@@ -8,16 +8,53 @@
 import UIKit
 
 class WatchListViewController: UIViewController {
-
+	
+	// MARK: - Outlets
+	
+	private lazy var searchViewController: UISearchController = {
+		let resultViewController = SearchResultsViewController()
+		let searchViewController = UISearchController(searchResultsController: resultViewController)
+		searchViewController.searchResultsUpdater = self
+		return searchViewController
+	}()
+	
+	// MARK: - Lifecycle
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		view.backgroundColor = .systemBackground
-		
-		title = "Test"
-		navigationController?.navigationBar.prefersLargeTitles = true
+		setupHierarchy()
+		setupLayout()
+		setupNavigationBar()
 	}
-
-
+	
+	// MARK: - Setup
+	
+	private func setupNavigationBar() {
+		navigationItem.searchController = searchViewController
+	}
+	
+	
+	private func setupHierarchy() {
+		
+	}
+	
+	private func setupLayout() {
+		
+	}
 }
 
- 
+extension WatchListViewController: UISearchResultsUpdating {
+	func updateSearchResults(for searchController: UISearchController) {
+		guard let query = searchController.searchBar.text,
+			  let resultViewController = searchController.searchResultsController as? SearchResultsViewController,
+			  !query.trimmingCharacters(in: .whitespaces).isEmpty else {
+			return
+		}
+		
+		print(query)
+		
+	}
+	
+	
+}
