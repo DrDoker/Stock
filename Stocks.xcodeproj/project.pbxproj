@@ -13,7 +13,7 @@
 		C59EC60A296CA356008B90E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59EC609296CA356008B90E5 /* Assets.xcassets */; };
 		C59EC60D296CA356008B90E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59EC60B296CA356008B90E5 /* LaunchScreen.storyboard */; };
 		C59EC61C296CA653008B90E5 /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC61B296CA653008B90E5 /* TopStoriesViewController.swift */; };
-		C59EC61E296CA662008B90E5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC61D296CA662008B90E5 /* SearchViewController.swift */; };
+		C59EC61E296CA662008B90E5 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC61D296CA662008B90E5 /* SearchResultsViewController.swift */; };
 		C59EC620296CA681008B90E5 /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC61F296CA681008B90E5 /* StockDetailsViewController.swift */; };
 		C59EC622296CAB44008B90E5 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC621296CAB44008B90E5 /* APICaller.swift */; };
 		C59EC624296CAB63008B90E5 /* PersitenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59EC623296CAB63008B90E5 /* PersitenceManager.swift */; };
@@ -29,7 +29,7 @@
 		C59EC60C296CA356008B90E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59EC60E296CA356008B90E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59EC61B296CA653008B90E5 /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
-		C59EC61D296CA662008B90E5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C59EC61D296CA662008B90E5 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		C59EC61F296CA681008B90E5 /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
 		C59EC621296CAB44008B90E5 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		C59EC623296CAB63008B90E5 /* PersitenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersitenceManager.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 			children = (
 				C59EC604296CA355008B90E5 /* WatchListViewController.swift */,
 				C59EC61B296CA653008B90E5 /* TopStoriesViewController.swift */,
-				C59EC61D296CA662008B90E5 /* SearchViewController.swift */,
+				C59EC61D296CA662008B90E5 /* SearchResultsViewController.swift */,
 				C59EC61F296CA681008B90E5 /* StockDetailsViewController.swift */,
 			);
 			path = Controllers;
@@ -210,7 +210,7 @@
 			files = (
 				C59EC626296CAB81008B90E5 /* HapticsManager.swift in Sources */,
 				C59EC620296CA681008B90E5 /* StockDetailsViewController.swift in Sources */,
-				C59EC61E296CA662008B90E5 /* SearchViewController.swift in Sources */,
+				C59EC61E296CA662008B90E5 /* SearchResultsViewController.swift in Sources */,
 				C59EC61C296CA653008B90E5 /* TopStoriesViewController.swift in Sources */,
 				C59EC622296CAB44008B90E5 /* APICaller.swift in Sources */,
 				C59EC605296CA355008B90E5 /* WatchListViewController.swift in Sources */,
