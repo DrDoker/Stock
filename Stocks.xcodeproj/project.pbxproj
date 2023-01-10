@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C59EC5FD296CA355008B90E5 /* Stock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59EC5FD296CA355008B90E5 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59EC600296CA355008B90E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59EC602296CA355008B90E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C59EC604296CA355008B90E5 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		C59EC5F4296CA355008B90E5 = {
 			isa = PBXGroup;
 			children = (
-				C59EC5FF296CA355008B90E5 /* Stock */,
+				C59EC5FF296CA355008B90E5 /* Stocks */,
 				C59EC5FE296CA355008B90E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,19 +58,19 @@
 		C59EC5FE296CA355008B90E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C59EC5FD296CA355008B90E5 /* Stock.app */,
+				C59EC5FD296CA355008B90E5 /* Stocks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C59EC5FF296CA355008B90E5 /* Stock */ = {
+		C59EC5FF296CA355008B90E5 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
 				C59EC614296CA49B008B90E5 /* Sources */,
 				C59EC60B296CA356008B90E5 /* LaunchScreen.storyboard */,
 				C59EC615296CA4A5008B90E5 /* Resources */,
 			);
-			path = Stock;
+			path = Stocks;
 			sourceTree = "<group>";
 		};
 		C59EC614296CA49B008B90E5 /* Sources */ = {
@@ -141,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C59EC5FC296CA355008B90E5 /* Stock */ = {
+		C59EC5FC296CA355008B90E5 /* Stocks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C59EC611296CA356008B90E5 /* Build configuration list for PBXNativeTarget "Stock" */;
+			buildConfigurationList = C59EC611296CA356008B90E5 /* Build configuration list for PBXNativeTarget "Stocks" */;
 			buildPhases = (
 				C59EC5F9296CA355008B90E5 /* Sources */,
 				C59EC5FA296CA355008B90E5 /* Frameworks */,
@@ -153,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = Stock;
+			name = Stocks;
 			productName = Stock;
-			productReference = C59EC5FD296CA355008B90E5 /* Stock.app */;
+			productReference = C59EC5FD296CA355008B90E5 /* Stocks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C59EC5F8296CA355008B90E5 /* Build configuration list for PBXProject "Stock" */;
+			buildConfigurationList = C59EC5F8296CA355008B90E5 /* Build configuration list for PBXProject "Stocks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C59EC5FC296CA355008B90E5 /* Stock */,
+				C59EC5FC296CA355008B90E5 /* Stocks */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Stock/Resources/Info.plist;
+				INFOPLIST_FILE = Stocks/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -388,7 +388,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Stock/Resources/Info.plist;
+				INFOPLIST_FILE = Stocks/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -413,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C59EC5F8296CA355008B90E5 /* Build configuration list for PBXProject "Stock" */ = {
+		C59EC5F8296CA355008B90E5 /* Build configuration list for PBXProject "Stocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C59EC60F296CA356008B90E5 /* Debug */,
@@ -422,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C59EC611296CA356008B90E5 /* Build configuration list for PBXNativeTarget "Stock" */ = {
+		C59EC611296CA356008B90E5 /* Build configuration list for PBXNativeTarget "Stocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C59EC612296CA356008B90E5 /* Debug */,

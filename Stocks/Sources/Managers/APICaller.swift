@@ -21,7 +21,7 @@ final class APICaller {
 	//MARK: - Public
 	
 	//get stack info
-	//search stacks
+	//search stocks
 	
 	//MARK: - Private
 	
